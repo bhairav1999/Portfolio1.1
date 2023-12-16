@@ -9,11 +9,11 @@
 
   --first-color: hsl(271, 76%, 53%);
   --title-color: hsl(0, 0%, 40%);
-  --text-color: hsl(0, 0, 50%);
+  --text-color: hsl(0, 0%, 50%);
   --body-color: hsl(0, 0%, 100%);
-  --container-color: hsl(0, 0 93%);
-  --border-color: hsl(0, 0, 87%);
-  --text-white: hsl(0, 0, 87%);
+  --container-color: hsl(0, 0%, 93%);
+  --border-color: hsl(0, 0%, 87%);
+  --text-white: hsl(0, 0%, 87%);
 
   /* <<<<-------------Font And Typography------------------>>>> */
 
