@@ -10,6 +10,7 @@
   object-fit: cover;
   border-radius: 30px;
   box-shadow: 0 0 8px hsla(0 0% 0% 0.3);
+  z-index: 1;
 }
 
 .home-data {
@@ -40,10 +41,22 @@
   background-color: var(--first-color);
 }
 
-.home--description {
+.home-description {
     line-height: 2.125;
-    margin-block:;
+    margin-block:16px 32px;
 }
+
+.color-block{
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    background-color: var(--first-color);
+    top: -50%;
+    left: -83%;
+    transform: rotate(-15deg);
+}
+
+
 
 
 

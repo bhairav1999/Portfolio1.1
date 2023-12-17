@@ -21,11 +21,13 @@ const Home = () => {
             commodi aspernatur perspiciatis veritatis?
           </p>
           <Link to="/about" className="button">
-            More About Me <span className="button-icon"></span>
-            <FaArrowRight />
+            More About Me <span className="button-icon"><FaArrowRight /></span>
+            
           </Link>
         </div>
       </div>
+
+      <div className="color-block"></div>
     </section>
   );
 };
